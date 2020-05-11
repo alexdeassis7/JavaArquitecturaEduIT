@@ -16,7 +16,7 @@
 	<packaging>pom</packaging>
 
 
-	<version>1.0</version>
+	<version>1.0-SNAPSHOT</version>
 
 
 	<name>tutorial_maven</name>
@@ -29,17 +29,10 @@
 
 
 	<properties>
-
-
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-
 		<maven.compiler.source>1.7</maven.compiler.source>
-
-
 		<maven.compiler.target>1.7</maven.compiler.target>
-
-
+		<log4j.version>( , 1.2.9)</log4j.version>
 	</properties>
 
 
@@ -207,12 +200,21 @@
 
 	<modules>
 
-
 		<module>tutorial_maven_jar</module>
 
 
 		<module>tutorial_maven_webapp</module>
 
 	</modules>
+
+
+<!-- 	<repositories> -->
+<!-- 		<repository> -->
+<!-- 			<id>org.springframework.maven.milestone</id> -->
+<!-- 			<url>http://maven.springframework.org/milestone</url> -->
+
+<!-- 		</repository> -->
+<!-- 	</repositories> -->
+
 
 </project>
